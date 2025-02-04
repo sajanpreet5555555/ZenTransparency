@@ -1,0 +1,8 @@
+@-moz-document regexp("https?:\\/\\/(?!(www\\.youtube\\.com|www\\.reddit\\.com|www\\.google\\.com)).*") {
+body{ background: rgba(255, 255, 255, .1)  !important;
+    backdrop-filter: blur(8.6px) !important;
+}
+html{ background: rgba(255, 255, 255, .1)  !important;
+    backdrop-filter: blur(8.6px) !important;
+}
+}
