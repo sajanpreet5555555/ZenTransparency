@@ -1,3 +1,4 @@
+
 **Procedure for Making Your Browser Transparent (Windows)**
 
 
@@ -54,4 +55,9 @@ Adding the CSS:
 
 3. Paste the file \`userContent.css\`
 
-
+Screenshots
+![image](https://github.com/user-attachments/assets/be8d69a8-ec84-4692-aef9-19436eb98f2c)
+![image](https://github.com/user-attachments/assets/23bc4a2d-43e2-4c25-b54a-347ccfcc0a26)
+![image](https://github.com/user-attachments/assets/24bc6872-a468-404c-8eb0-6d0251ff40bd)
+![image](https://github.com/user-attachments/assets/a0895238-06ce-4169-8415-920d4a072ed2)
+![Uploading image.png…]()
