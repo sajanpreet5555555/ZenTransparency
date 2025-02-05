@@ -2,7 +2,7 @@
 **Procedure for Making Your Browser Transparent (Windows)**
 
 
-
+*Note: MicaforEveryone is win11 exclusive, but you can use [DwmBlurglass](https://github.com/Maplespe/DWMBlurGlass) for win 10*
 *Note: On macOS, you might only need the CSS and can skip Step 1 But i do not have a mac and cannot vouch for that*
 
 
@@ -15,9 +15,12 @@ Step 1: Make the Browser Transparent
 
 2. Set the Backdrop:
 
-   \- Open MicaForEveryone and set the backdrop as acrylic globally (or create an exclusive rule for just Zen).
+   \- Open MicaForEveryone, click on the plus icon in the bottom left > \`Add Process Rule\` > type zen
+Then set backdrop as acrylic and set the to toggle to the on position
 
-3. Configure Zen:
+![image](https://github.com/user-attachments/assets/2d8cc45b-ce34-4e54-8362-d8ecf698041c)
+
+4. Configure Zen:
 
    \- Go to \`about:config\` in Zen and set:
 
@@ -31,7 +34,7 @@ Step 1: Make the Browser Transparent
 
 
 
-I have written three styles to achieve this: one for YouTube, one for Google, and one that makes the background on all websites transparent. The YouTube and Google styles look great, but the general style may mess up some sites and might not work on others. You can choose to add or exclude it if you want.
+I have written three styles to achieve this: one for YouTube, one for Google, and one that makes the background on all websites transparent. The YouTube and Google styles look great, but the general style may mess up some sites and might not work on others. You can choose if you want the general style or not.
 
 
 
@@ -60,4 +63,3 @@ Screenshots
 ![image](https://github.com/user-attachments/assets/23bc4a2d-43e2-4c25-b54a-347ccfcc0a26)
 ![image](https://github.com/user-attachments/assets/24bc6872-a468-404c-8eb0-6d0251ff40bd)
 ![image](https://github.com/user-attachments/assets/a0895238-06ce-4169-8415-920d4a072ed2)
-![Uploading image.png…]()
