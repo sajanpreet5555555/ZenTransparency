@@ -167,7 +167,7 @@ ytd-author-comment-badge-renderer .ytd-channel-name {
     background: transparent !important;
 }
 .tp-yt-iron-dropdown {
-    background: rgba(255, 255, 255, .8) !important;
+    background: rgba(146, 164, 163, .53) !important;
     border-radius: 10px
 }
 
@@ -196,7 +196,7 @@ ytd-engagement-panel-title-header-renderer[modern-panels]:not([ads-semantic-text
     box-shadow: none !important
 }
 .ytSearchboxComponentSearchButton {
-    color: #cdcdcd !important;
+    color: #f8f8f8 !important;
     background: #ffffff24 !important;
     border-color: #7fa9ac8a !important;
 }
@@ -240,4 +240,9 @@ yt-share-target-renderer .yt-share-target-renderer[style-target = "title"] {
     color: #1b2324 !important;
     text-shadow: none;
 }
+#live-chat-banner{background:aliceblue !important}
+#message{color:black !important}
+#contents{background: rgba(121, 131, 151, .0) !important;}
+#chat-messages #contents{background: rgba(249, 249, 249, .25) !important;}
+
 }
