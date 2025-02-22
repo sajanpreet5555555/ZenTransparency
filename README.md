@@ -31,7 +31,7 @@ Step 1: Make the Browser Transparent
 
 
 
-I have written three styles to achieve this: one for YouTube, one for Google, and one that makes the background on all websites transparent. The YouTube and Google styles look great, but the general style may mess up some sites and might not work on others. You can choose if you want the general style or not.
+I have written four styles to achieve this: one for YouTube,one for YTmusic, one for Google, and one that makes the background on all websites transparent. The YouTube and Google styles look great, but the general style may mess up some sites and might not work on others. You can choose if you want the general style or not.
 
 
 
@@ -55,13 +55,25 @@ Adding the CSS:
 
 3. Paste the file \`userContent.css\`
 
-Screenshots
-![image](https://github.com/user-attachments/assets/be8d69a8-ec84-4692-aef9-19436eb98f2c)
-![image](https://github.com/user-attachments/assets/23bc4a2d-43e2-4c25-b54a-347ccfcc0a26)
-![image](https://github.com/user-attachments/assets/24bc6872-a468-404c-8eb0-6d0251ff40bd)
-![image](https://github.com/user-attachments/assets/a0895238-06ce-4169-8415-920d4a072ed2)
+<details>
+   <summary>Screenshots</summary>
 
- 
+<div>
+
+![image](https://github.com/user-attachments/assets/753872e8-b90f-4fed-ad77-c0a28982d9c4)
+
+![image](https://github.com/user-attachments/assets/454c5a12-eafc-4b01-bcc7-cb3b4e548848)
+
+![image](https://github.com/user-attachments/assets/7dc26988-7c81-4d71-9823-31c355889ecc)
+
+![image](https://github.com/user-attachments/assets/c19ad435-ebdc-4e7e-870f-adba0dfab678)
+
+![image](https://github.com/user-attachments/assets/40e64b4d-dcbb-4f6e-997d-dab89755eab3)
+
+![image](https://github.com/user-attachments/assets/e499fb25-f518-4ce9-85a3-17669da2b78b)
+
+</div>
+</details>
 1.8 and above:
 Since zen has reworked transparency you have to do 2 extra things
  
