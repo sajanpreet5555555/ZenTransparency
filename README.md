@@ -1,6 +1,6 @@
 
 **Procedure for Making Your Browser Transparent (Windows)**
-
+**Users on 1.8 and beyond see footnote**
 
 *Note: MicaforEveryone is win11 exclusive, win 10 dosen't support neither mica nor acrylic the two effects zen supports*
 *Note: On macOS, you might only need the CSS and can skip Step 1 But i do not have a mac and cannot vouch for that*
@@ -15,10 +15,7 @@ Step 1: Make the Browser Transparent
 
 2. Set the Backdrop:
 
-   \- Open MicaForEveryone, click on the plus icon in the bottom left > \`Add Process Rule\` > type zen
-Then set backdrop as acrylic and set the to toggle to the on position
-
-![image](https://github.com/user-attachments/assets/2d8cc45b-ce34-4e54-8362-d8ecf698041c)
+   \- Open Zen click on the MicaForEveryone taskbar icon, select backdrop and select acrylic or mica\`
 
 4. Configure Zen:
 
@@ -63,3 +60,23 @@ Screenshots
 ![image](https://github.com/user-attachments/assets/23bc4a2d-43e2-4c25-b54a-347ccfcc0a26)
 ![image](https://github.com/user-attachments/assets/24bc6872-a468-404c-8eb0-6d0251ff40bd)
 ![image](https://github.com/user-attachments/assets/a0895238-06ce-4169-8415-920d4a072ed2)
+
+ 
+1.8 and above:
+Since zen has reworked transparency you have to do 2 extra things
+ 
+1: Increase transparency
+\- Go to \`about:config\` in Zen and set:
+
+   \- \`zen.theme.gradient.show-custom-colors\` to \`true\`
+   
+ \- Add a transparent color to the gradient (eight letter hex code with last two controlling opacity) for ex \`#ffffff0f\`
+
+1: Fix sidebar tab tittle being unreadable
+
+1. Go to \`about:profiles\` in Zen.
+
+2. Open the root directory folder > \`chrome\`.
+
+3. Make a file called \`userChrome.css\` and paste this in it
+   <code>:root {hbox#titlebar{background: rgba(244, 244, 244, 0.728) !important;}}</code>
