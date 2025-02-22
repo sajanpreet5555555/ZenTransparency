@@ -9,18 +9,55 @@ body {
     background: rgba(255, 255, 255, 0) !important;
     backdrop-filter: none !important;
 }
-.image.style-scope.ytmusic-fullbleed-thumbnail-renderer{display:none}
+.image.style-scope.ytmusic-fullbleed-thumbnail-renderer {
+    display: none
+}
 .style-scope {
     background: rgba(255, 255, 255, .0) !important;
 }
-.style-scope.ytmusic-popup-container{background: rgba(237, 242, 241, .28) !important;}
-ytmusic-menu-service-item-renderer svg{fill:black}
-.icon.ytmusic-menu-navigation-item-renderer{fill:black}
-.icon.ytmusic-toggle-menu-service-item-renderer{fill:black}
-#primaryProgress{background:#c6dadcb3 !important}
-.slider-knob-inner{background:#c6dadcb3 !important; border:#ffff !important }
+.style-scope.ytmusic-popup-container {
+    background: rgba(160, 180, 189, .62) !important;
+}
+#contentWrapper ytmusic-menu-popup-renderer.ytmusic-popup-container {
+    background: rgb(247, 248, 249) !important;
+}
+ytmusic-menu-service-item-renderer svg {
+    fill: black
+}
+.icon.ytmusic-menu-navigation-item-renderer {
+    fill: black
+}
+.icon.ytmusic-toggle-menu-service-item-renderer {
+    fill: black
+}
+#primaryProgress {
+    background: #c6dadcb3 !important
+}
+.slider-knob-inner {
+    background: #c6dadcb3 !important;
+    border: 4px #ffff !important
+}
 
-ytmusic-menu-service-item-renderer yt-formatted-string{color:black !important}
-ytmusic-menu-navigation-item-renderer  yt-formatted-string{color:black !important}
-ytmusic-toggle-menu-service-item-renderer  yt-formatted-string{color:black !important}
+ytmusic-menu-service-item-renderer yt-formatted-string {
+    color: black !important
+}
+ytmusic-menu-navigation-item-renderer yt-formatted-string {
+    color: black !important
+}
+ytmusic-toggle-menu-service-item-renderer yt-formatted-string {
+    color: black !important
+}
+
+#toggleBar {
+    background: #c6dadcb3 !important
+}
+#toggleButton {
+    background: #c6dadcb3 !important;
+    border: 4px #fff
+}
+
+ytmusic-player-bar.ytmusic-app {
+    background: #a6a8a89c !important;
+    backdrop-filter: blur(10px);
+}
 }
