@@ -1,0 +1,26 @@
+@-moz-document domain("music.youtube.com") {
+html {
+    background: rgba(121, 131, 151, .19) !important;
+    backdrop-filter: blur(8.6px) !important;
+    width: 100vw !important;
+    height: 100vh !important;
+}
+body {
+    background: rgba(255, 255, 255, 0) !important;
+    backdrop-filter: none !important;
+}
+.image.style-scope.ytmusic-fullbleed-thumbnail-renderer{display:none}
+.style-scope {
+    background: rgba(255, 255, 255, .0) !important;
+}
+.style-scope.ytmusic-popup-container{background: rgba(237, 242, 241, .28) !important;}
+ytmusic-menu-service-item-renderer svg{fill:black}
+.icon.ytmusic-menu-navigation-item-renderer{fill:black}
+.icon.ytmusic-toggle-menu-service-item-renderer{fill:black}
+#primaryProgress{background:#c6dadcb3 !important}
+.slider-knob-inner{background:#c6dadcb3 !important; border:#ffff !important }
+
+ytmusic-menu-service-item-renderer yt-formatted-string{color:black !important}
+ytmusic-menu-navigation-item-renderer  yt-formatted-string{color:black !important}
+ytmusic-toggle-menu-service-item-renderer  yt-formatted-string{color:black !important}
+}
