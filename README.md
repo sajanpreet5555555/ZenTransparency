@@ -2,7 +2,7 @@
 **Procedure for Making Your Browser Transparent (Windows)**
 
 
-*Note: MicaforEveryone is win11 exclusive, but you can use [DwmBlurglass](https://github.com/Maplespe/DWMBlurGlass) for win 10*
+*Note: MicaforEveryone is win11 exclusive, win 10 dosen't support neither mica nor acrylic the two effects zen supports*
 *Note: On macOS, you might only need the CSS and can skip Step 1 But i do not have a mac and cannot vouch for that*
 
 
@@ -24,9 +24,9 @@ Then set backdrop as acrylic and set the to toggle to the on position
 
    \- Go to \`about:config\` in Zen and set:
 
-\- \`widget.windows.mica\` to \`true\`
+   \- \`widget.windows.mica\` to \`true\`
 
-\- \`browser.tabs.allow\_transparent\_browser\` to \`true\`
+   \- \`browser.tabs.allow\_transparent\_browser\` to \`true\`
 
    \- Enable workspaces for this to take effect.
 
