@@ -78,17 +78,10 @@ Adding the CSS:
 Since zen has reworked transparency you have to do 2 extra things
  
 1: Increase transparency
-\- Go to \`about:config\` in Zen and set:
-
-   \- \`zen.theme.gradient.show-custom-colors\` to \`true\`
-   
- \- Add a transparent color to the gradient (eight letter hex code with last two controlling opacity) for ex \`#ffffff0f\`
-
-1: Fix sidebar tab tittle being unreadable
 
 1. Go to \`about:profiles\` in Zen.
 
 2. Open the root directory folder > \`chrome\`.
 
 3. Make a file called \`userChrome.css\` and paste this in it
-   <code>:root {hbox#titlebar{background: rgba(244, 244, 244, 0.728) !important;}}</code>
+   <code>:root {#browser{background: rgba(199, 227, 239, 0.11) !important;}}</code>
